@@ -1,0 +1,12 @@
+# PC.2 - Acesso a dados do spaCy e ao corpora SUBTLEX-pt-BR
+# Versoes alinhadas com o repositorio de exemplos da disciplina.
+
+spacy==3.8.7
+pandas==2.3.2
+jupyter==1.1.1
+notebook==7.4.5
+
+# O modelo de lingua portuguesa NAO entra aqui de proposito: instalado por URL,
+# ele faz o pip abortar o arquivo inteiro se o download falhar. Instale depois:
+#
+#     python -m spacy download pt_core_news_sm

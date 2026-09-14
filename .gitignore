@@ -1,0 +1,18 @@
+# Corpus baixado pelo notebook (2,7 MB) - o proprio notebook refaz o download
+SUBTLEX_PT-BR_*.tsv
+
+# Ambiente virtual
+env/
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Sistema
+.DS_Store
+Thumbs.db
